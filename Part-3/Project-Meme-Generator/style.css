@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+/*
+    Header Component
+*/
+#header--component {
+    display: flex;
+    align-items:center;
+    height: 4em;
+    padding: 1em;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+
+#header--img {
+    height: 100%;
+    width: auto;
+    margin-right: 0.5em;
+}
+
+#header--logotext{
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+#header--projectname{
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/*
+    Meme Component
+*/
+
+.form {
+    display: flexbox; 
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+.form--input {
+    height: 55.01px;
+    top: 93px;
+    left: 37px;
+    gap: 3.27px;
+    opacity: 0px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border-color: lightgray;
+    width: 48%; 
+    margin-right: 11px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.37px;
+    text-align: left;
+}
+
+.form--button {
+    height: 40px;
+    top: 163px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 8px;
+    display: block; 
+    width: 100%; 
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.7px;
+    letter-spacing: -0.1em;
+    text-align: center;
+    color:white;
+}
+
+.meme--image {
+    width: 100%;
+}

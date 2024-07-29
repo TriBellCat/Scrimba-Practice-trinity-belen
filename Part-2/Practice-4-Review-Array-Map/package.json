@@ -1,0 +1,17 @@
+{
+  "name": "Scrim-s052g4kmmd",
+  "description": "https://v2.scrimba.com/learn-react-c0e/~01l",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}
